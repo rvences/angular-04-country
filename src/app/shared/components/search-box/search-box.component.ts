@@ -15,6 +15,8 @@ export class SearchBoxComponent implements OnInit, OnDestroy{
   @Input()
   public placeholder : string ='';
 
+  @Input()
+  public initialValue : string ='';
   /**
    * * Permite que se reciba información del componente hijo
    */
